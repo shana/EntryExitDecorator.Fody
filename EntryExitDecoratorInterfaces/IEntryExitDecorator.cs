@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace MethodDecoratorInterfaces {
+namespace EntryExitDecoratorInterfaces {
     public interface IEntryExitDecorator {
         void OnEntry();
         void OnExit();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using EntryExitDecorator.Fody;
-using MethodDecoratorInterfaces;
+using EntryExitDecoratorInterfaces;
 using Mono.Cecil;
 using Mono.Cecil.Rocks;
 

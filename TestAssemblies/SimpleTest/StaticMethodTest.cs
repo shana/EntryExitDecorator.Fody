@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using MethodDecoratorInterfaces;
+using EntryExitDecoratorInterfaces;
 
 namespace SimpleTest
 {
