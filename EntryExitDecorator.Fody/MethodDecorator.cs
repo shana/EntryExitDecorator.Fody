@@ -40,7 +40,9 @@ namespace EntryExitDecorator.Fody {
             var callOnExitInstructions = GetCallOnExitInstructions(processor, onExitMethodRef);
 
             processor.InsertBefore(methodBodyFirstInstruction, callOnEntryInstructions);
-            processor.InsertBefore(method.Body.Instructions.Last(), callOnExitInstructions);
+            //var last = method.Body.Instructions.Last();
+            var last = method.Body.Instructions.LastOrDefault(x => x.OpCode == OpCodes.Endfinally) ?? method.Body.Instructions.Last();
+            processor.InsertBefore(last, callOnExitInstructions);
 
         }
 

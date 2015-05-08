@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinallyBlockTest.cs" />
     <Compile Include="StaticMethodTest.cs" />
     <Compile Include="NestedTypesTest.cs" />
     <Compile Include="DeepInheritanceTest.cs" />

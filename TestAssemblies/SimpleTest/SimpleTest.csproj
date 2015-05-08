@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClassEntryExit.cs" />
+    <Compile Include="FinallyBlockTest.cs" />
     <Compile Include="ChildClassTest.cs" />
     <Compile Include="NestedTypesTest.cs" />
     <Compile Include="DeepInheritanceTest.cs" />

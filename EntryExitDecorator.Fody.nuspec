@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EntryExitDecorator.Fody</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <title>EntryExitDecorator.Fody</title>
     <authors>Andreia Gaita</authors>
     <owners>Andreia Gaita</owners>
