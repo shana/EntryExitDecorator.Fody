@@ -6,7 +6,7 @@
     <title>EntryExitDecorator.Fody</title>
     <authors>Andreia Gaita</authors>
     <owners>Andreia Gaita</owners>
-    <projectUrl>https://github.com/shana/EntryExitDecorator</projectUrl>
+    <projectUrl>https://github.com/shana/EntryExitDecorator.Fody</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Fody add-in to decorate all instance methods in the most derived class that implements IEntryExitDecorator to run code before and after invocation. Based on https://github.com/Fody/MethodDecorator </description>
     <copyright>Copyright Andreia Gaita 2015</copyright>
